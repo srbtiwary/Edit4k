@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+   
+
+    <link
+      rel="shortcut icon"
+      type="logo.png"
+      
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Tailwind CSS CDN  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title> Team Page</title>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .vertical-lr {
+          writing-mode: vertical-lr;
+        }
+        .parent {
+          margin-top: 100px;
+        }
+        .small {
+          margin-top: 64px;
+        }
+        .clear {
+          margin-top: 0;
+        }
+        .pt-serif {
+          font-family: "PT Serif", serif;
+        }
+        .poppins {
+          font-family: "Poppins", sans-serif;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="px-8 ">
+      <div class="flex flex-col justify-around mb-16 mt-16 md:flex-row bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% rounded-lg p-5">
+        <div class="">
+          <h1 class="font-bold text-3xl py-[20%] pt-serif ">The Creative Crew at Edit4k</h1>
+        </div>
+        <div>
+          <h3 class="font-semibold text-xl pb-4 pt-4 poppins">WHO WE ARE</h3>
+          <p class="text-white pb-10 poppins">
+            Welcome to the heart of Edit4k  our creative crew. <br> We are a passionate team of skilled professionals dedicated to <br>transforming ordinary videos into extraordinary visual masterpieces. <br>With diverse backgrounds and a shared love for storytelling, <br>we bring a unique blend of creativity, expertise, <br> and innovation to every project we undertake.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="grid grid-cols-1 gap-10 md:grid-cols-3 md:grid-rows-2 place-items-center place-content-around bg-[#60844c] rounded-lg"
+      >
+        <div class="w-2/5 relative">
+          <img class="w-10/12 md:w-fit" src="photo1.png" alt="" srcset="" />
+          <h3 class="font-semibold text-sm poppins text-center">Saurabh Tiwari</h3>
+          <p class="vertical-lr absolute text-sm top-0 -right-2 p-2 uppercase pt-serif">
+           CEO
+          </p>
+        </div>
+
+        <div class="w-2/5 relative md:parent small">
+          <img class="w-10/12 md:w-11/12" src="photo2.png" alt="" srcset="" />
+          <h3 class="font-semibold text-sm poppins text-center">Mittal Keshav</h3>
+          <p class="vertical-lr absolute text-xs top-0 -right-2 uppercase pt-serif">
+            Creative Editors
+          </p>
+        </div>
+
+        <div class="w-2/5 relative">
+          <img class="w-10/12 md:w-11/12" src="photo3.png" alt="" srcset="" />
+          <h3 class="font-semibold text-sm poppins text-center">Vishal</h3>
+          <p class="vertical-lr absolute text-xs top-0 -right-2 uppercase pt-serif">
+            Creative Editors
+          </p>
+        </div>
+
+        <div class="w-2/5 relative small md:clear">
+          <img class="w-10/12 md:w-11/12" src="photo4.png" alt="" srcset="" />
+          <h3 class="font-semibold text-sm poppins text-center">Raj</h3>
+          <p class="vertical-lr absolute text-xs top-0 -right-2 uppercase pt-serif">
+            Creative Editors
+          </p>
+        </div>
+
+        <div class="w-2/5 relative md:parent">
+          <img class="w-10/12 md:w-11/12" src="photo5.png" alt="" srcset="" />
+          <h3 class="font-semibold text-sm poppins text-center">Nidhi</h3>
+          <p class="vertical-lr absolute text-xs top-0 -right-2 uppercase pt-serif">
+              Client Relations Team
+          </p>
+        </div>
+
+        <div class="w-2/5 relative small md:clear">
+          <img class="w-10/12 md:w-11/12" src="photo6.png" alt="" srcset="" />
+          <h3 class="font-semibold text-sm poppins text-center">Jaya</h3>
+          <p class="vertical-lr absolute text-xs top-0 -right-2 uppercase pt-serif">
+            Design <br> Wizards
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer class="text-center mt-12 poppins">
+      © 2023 Edit4k
+    </footer>
+  </body>
+</html>
